@@ -72,12 +72,9 @@ button.cancel {
   color: royalblue;
 }
 
-.topline { /* Added */
+.header { /* Added */
   display: flex;
   justify-content: space-between;
-}
-
-.header { /* Added */
   font-weight: bold;
   font-size: 20px;
 }
