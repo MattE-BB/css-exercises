@@ -70,4 +70,5 @@ button.cancel {
 
 .topline {
   display: flex;
+  justify-content: space-between;
 }
