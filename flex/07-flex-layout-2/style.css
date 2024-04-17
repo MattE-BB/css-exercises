@@ -10,25 +10,41 @@ body {
   color: white;
   font-weight: 700; /* Added*/ 
   font-size: 20px; /* Added*/
+  display: flex; /* Added*/
+  align-items: center; /* Added*/
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: flex; /* Added */
+  justify-content: center; /* Added */
+  align-items: center; /* Added */
 }
+
 
 .sidebar {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  display: flex; /* Added */
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+}
+
+/* Remove link underline and change colour*/
+a {
+  text-decoration: none;
+  color: #eee;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
 }
