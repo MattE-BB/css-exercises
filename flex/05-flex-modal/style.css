@@ -74,11 +74,11 @@ button.cancel {
   justify-content: space-between;
 }
 
-.header {
+.header { /* Added */
   font-weight: bold;
   font-size: 20px;
 }
 
-.text {
+.text { /* Added */
   padding: 10px 0;
 }
