@@ -23,12 +23,10 @@ body {
   align-items: center; /* Added */
 }
 
-
 .sidebar {
-  width: 300px;
+  min-width: 300px; /*Changed to min width*/
   background: royalblue;
   box-sizing: border-box;
-  display: flex; /* Added */
 }
 
 .card {
@@ -37,14 +35,33 @@ body {
   border-radius: 4px;
 }
 
-/* Remove link underline and change colour*/
+/* Remove link underline and change text colour*/
 a {
   text-decoration: none;
   color: #eee;
 }
 
+/* Remove list bullets and margin*/
 ul {
   list-style-type: none;
   margin: 0px;
   padding: 0px;
+}
+
+/*added whitespace between items in list*/
+/* margin used else padding would double space between list items*/
+li {
+  margin: 10px;
+}
+
+/* places six cards in a grid layout*/
+.allcards {
+  display: flex;
+  gap: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+/*consolidates sidebar and cards in a flex layout*/
+.content {
+  display: flex;
 }
