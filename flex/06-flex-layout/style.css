@@ -5,6 +5,7 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex; /* added */
 }
 
 img {
@@ -35,9 +36,20 @@ input {
   padding: 0;
 }
 
+
+/* Adds search function and logo in middle*/
+
 .content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.header {
+  display: flex;
+}
+
+.footer {
+  display: flex;
 }
