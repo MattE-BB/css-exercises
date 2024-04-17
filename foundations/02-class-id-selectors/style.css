@@ -1,0 +1,20 @@
+.para {
+    background-color: #f2a2a2;
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+.parafont {
+    font-size: 24px;
+}
+
+#second {
+    color: #234efa;
+    font-size: 36px;
+
+}
+
+#fourth {
+    background-color: #90ee90;
+    font-size: 24px;
+    font-weight: bold;
+}
