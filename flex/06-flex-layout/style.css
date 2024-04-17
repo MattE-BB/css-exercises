@@ -6,6 +6,8 @@ body {
   overflow: hidden;
   font-family: Roboto, sans-serif;
   display: flex; /* added */
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 img {
@@ -33,10 +35,28 @@ input {
 
 .left-links, .right-links {
   list-style-type: none;
+  display: flex;
   margin: 0;
-  padding: 0;
+  gap: 20px;
 }
 
+.header, .footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.footer {
+  background-color: #eeeeee;
+}
+  
+.left-links {
+  margin-right: auto;
+}
+
+.right-links {
+  margin-left: auto;
+}
 
 /* Adds search function and logo in middle*/
 
@@ -47,10 +67,8 @@ input {
   align-items: center;
 }
 
-.header {
-  display: flex;
+a {
+  text-decoration: none;
+  color: gray;
 }
 
-.footer {
-  display: flex;
-}
